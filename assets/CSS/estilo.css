@@ -7,7 +7,8 @@
 body{
     font-size: 18px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: #F6f6f6;
+    background-color: #f6f6f6;
+    
 
 }
 
@@ -22,7 +23,6 @@ body{
 }
 
 #area-principal{
-    width: 1000px;
     margin: 0px;
     padding: 15px;
 }
@@ -33,20 +33,22 @@ body{
 
 }
 #area-lateral{
-    width: 300px;
+    width: 320px;
     float: right;
 }
 
 .postagem{
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #565656;
+    background-color: #284b63;
+    border-radius: 3%;
 }
 
 .conteudo-lateral{
-    background-color: #CCC;
+    background-color: #284b63;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 5%;
 }
 
 .postagem-lateral{
@@ -80,22 +82,27 @@ a:hover{
 }
 
 h1{
-    color: #4e4e4e;
+    color: #353535;
     font-size: 42px;
 }
 h2{
     color: #f7b600;
 }
 h3{
-    color: #565656;
-    background-color: #CCC;
+    color: #f4c851;
     padding: 5px;
 }
 
 .branco{
-    color: #CCC;
+    color: #2b59c3;
 }
 
 .data-postagem{
     font-size: 8px;
+}
+p{
+    color: #f6f6f6;
+}
+li{
+    color: #F6f6f6;
 }
